@@ -1,0 +1,32 @@
+.sectionPrincipal{
+    background-image: url(../assets/Imagen/couch-product.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    height: 18.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 3.125rem;
+        h2{
+            font-size: 3.125rem;
+            color: #26272A;
+            letter-spacing: .125rem;
+            font-weight: 300;
+        }
+        div{
+            background-color: rgba(0, 0, 0, 0.297);
+            width: 17%;
+            padding: .5rem;
+                h3{
+                    padding-bottom: .9375rem;
+                    font-size: x-large;
+                    font-weight: 300;
+                }
+                p{
+                    font-size: medium;
+                    font-weight: 100;
+                    color: white;
+                }
+        }
+}

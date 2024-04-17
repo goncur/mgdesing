@@ -1,0 +1,75 @@
+@media(max-width:425px){
+    .mainUs{
+        height: 100%;
+            h2{
+                text-align: center;
+                font-size: 3.125rem;
+            }
+            section{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-content: center;
+                    .usMg{
+                        display: flex;
+                        flex-direction: column;
+                        padding: 2.5rem;
+                            h3{
+                                text-align: center;
+                                padding-bottom: .625rem;
+                            }
+                            p{
+                                text-align: center;
+                            }
+                    }
+                    .usMgreverse{
+                        display: flex;
+                        flex-direction: column;
+                        padding: 2.5rem;
+                            h3{
+                                text-align: center;
+                                padding-bottom: .625rem;
+                            }
+                            p{
+                                text-align: center;
+                            }
+        
+                    }
+            }
+    }
+
+}
+
+@media(max-width:425px){
+    .mainProducts{
+        
+    }
+    .couchLisboa{
+        height: 6.25rem;
+        background-position: center;
+        a{
+            font-size: 1.25rem;
+        }
+    }
+    .couchAmerico{
+        height: 6.25rem;
+        background-position: 100% 30%;
+        a{
+            font-size: 1.25rem;
+        }
+    }
+    .couchAfrica{
+        height: 6.25rem;
+        background-position: 100% 60%;
+        a{
+            font-size: 1.25rem;
+        }
+    }
+    .couchPraga{
+        height: 6.25rem;
+        background-position: 10%;
+        a{
+            font-size: 1.25rem;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.sectionButton{
+    width: 100%;
+    color: white;
+    text-align: end;
+    padding-right: 6.25rem;
+        a{
+            font-size: 1.875rem;
+            list-style: none;
+            text-decoration: none;
+            color: white;
+        }
+}
+
+.itemLink{
+    @include flex(row,center,center);
+    padding-top: 6.25rem;
+    padding-bottom: 12.5rem;
+    gap: 6.25rem;
+        .option1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-items: center;
+            border: .0625rem solid white;
+            border-radius: .5rem;
+            padding: .625rem .625rem;
+            font-weight: 300;
+            font-style: normal;
+                h4{
+                    font-size: x-large;
+                }
+        }
+        }

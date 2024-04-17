@@ -1,0 +1,16 @@
+.usMg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.25rem;
+    padding-left: 12.5rem;
+    padding-bottom: 6.25rem;
+}
+.usMgreverse{
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+gap: 1.25rem;
+padding-right: 12.5rem;
+padding-bottom: 6.25rem;
+}

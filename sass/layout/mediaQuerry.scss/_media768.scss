@@ -1,0 +1,53 @@
+@media (max-width:768px){
+    .headerNavbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.25rem;
+        padding-bottom: .3125rem;
+    }
+    .sectionPrincipal2{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutUs{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        gap: 0;
+    }
+    .sectionButton{
+        display: flex;
+        justify-content: end;
+        padding-top: 1.25rem;
+        padding-right: 1.125rem;
+    }
+    .itemLink{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 0;
+    }
+}
+
+@media(max-width:768px){
+    .usMg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+            img{
+                width: 25rem;
+            }
+    }
+    .usMgreverse{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+            img{
+                width: 25rem;
+            }
+    }
+}

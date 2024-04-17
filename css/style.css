@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 /** font-family
 
 .lato-thin {
@@ -27,438 +31,366 @@
 }
 
 */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.headerNavbar{
-    width: 100%;
-    height: 9.375rem;
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    justify-content: space-between;
-    padding: 1.875rem;
-    align-items: flex-end;
-    font-family: "Lato", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    position: sticky;
-    top: 0;
-}
-.headerNavbar h1 {
+.headerNavbar {
+  width: 100%;
+  height: 9.375rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #26272A;
+  color: white;
+  padding: 1.875rem;
+  font-family: "Lato",sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  position: sticky;
+  top: 0; }
+  .headerNavbar h1 {
     width: 100%;
     display: flex;
     justify-content: center;
-    font-family: "Lato", sans-serif;
+    font-family: "Lato",sans-serif;
     font-weight: 300;
-    font-style: normal; 
-}
-.headerNavbar a{
-    width: 100%;
-    text-decoration: none;
-    color: white;
-    display: flex;
-    justify-content: center;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: normal; 
-}
-.headerNavbar :hover{
-    color: rgba(255, 217, 0, 0.379);
+    font-style: normal; }
+    .headerNavbar h1 a {
+      color: white;
+      list-style: none;
+      text-decoration: none; }
 
-}
-.navBar{
-    display: flex;
-    flex-direction: row;
-    list-style:none;
-    gap: 1.25rem;
-}
-.navBar li a{
-    text-decoration: none;
-    color: white;
-}
-main{
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    color: white;
-    text-decoration: none;
-    font-family: "Lato", sans-serif;
-    font-weight: 100;
+main {
+  background-color: #26272A;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-decoration: none;
+  font-family: "Lato",sans-serif;
+  font-weight: 100;
+  font-style: normal; }
+
+.footerPrincipal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.875rem;
+  font-family: "Lato",sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  gap: .625rem; }
+  .footerPrincipal h2 {
+    padding-bottom: 1.25rem;
+    font-size: x-large; }
+  .footerPrincipal div {
+    color: #26272A; }
+    .footerPrincipal div a {
+      font-weight: 300;
+      text-decoration: none;
+      color: #26272A; }
+    .footerPrincipal div p {
+      font-weight: 50;
+      text-align: center;
+      padding: .625rem .625rem; }
+
+.footerEnd {
+  padding: 1.875rem;
+  font-family: "Lato",sans-serif;
+  font-weight: 100;
+  font-style: normal; }
+
+.mainUs {
+  height: 100%; }
+  .mainUs h2 {
+    padding: 1.875rem 1.875rem;
+    font-family: "Lato",sans-serif;
+    font-weight: 800;
     font-style: normal;
-}
-.sectionPrincipal{
-    background-image:url(../assets/Imagen/couch-product.jpg);
-    background-position: center;
-    background-repeat: none;
-    background-size: cover;
-    height: 18.75rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-left: 1.875rem;   
-}
-.sectionPrincipal h2{
+    font-size: 80px; }
+
+.mainProducts {
+  font-family: "Lato",sans-serif; }
+
+.sectionPrincipal {
+  background-image: url(../assets/Imagen/couch-product.jpg);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  height: 18.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 3.125rem; }
+  .sectionPrincipal h2 {
     font-size: 3.125rem;
-    color: black;
+    color: #26272A;
     letter-spacing: .125rem;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-.sectionPrincipal div{
-    background-color: rgba(0, 0, 0, 0.292);
-    width: 18%;
-}
-.sectionPrincipal div h3{
-    padding-bottom: .9375rem;
-    font-size:x-large;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-.sectionPrincipal div p{
-    font-size: medium;
-    font-family: "Lato", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    color: beige;
-}
-.sectionPrincipal2{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding-left: 1.875rem;
-}
-.aboutUs{
+    font-weight: 300; }
+  .sectionPrincipal div {
+    background-color: rgba(0, 0, 0, 0.297);
+    width: 17%;
+    padding: .5rem; }
+    .sectionPrincipal div h3 {
+      padding-bottom: .9375rem;
+      font-size: x-large;
+      font-weight: 300; }
+    .sectionPrincipal div p {
+      font-size: medium;
+      font-weight: 100;
+      color: white; }
+
+.sectionPrincipal2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.875rem; }
+  .sectionPrincipal2 .aboutUs {
     width: 80%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding-top: 1.875rem;
-    text-align: center;
-    gap: 6.25rem;
-}
-.sectionButton{
-    width: 100%;
-    color: white;
-    text-align:end;
-    padding-right: 18.75rem;
-}
-.sectionButton a{
+    justify-content: space-around;
+    padding-top: 1.875rem; }
+    .sectionPrincipal2 .aboutUs h2 {
+      font-size: 1.875rem; }
+
+.sectionButton {
+  width: 100%;
+  color: white;
+  text-align: end;
+  padding-right: 6.25rem; }
+  .sectionButton a {
     font-size: 1.875rem;
     list-style: none;
     text-decoration: none;
-    color: white;
-    padding-left: 12.5rem;
-}
-.itemLink{
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    gap: 6.25rem;
-    margin: 2.5rem 2.5rem;
-    padding-left: 18.75rem;
-    padding-bottom: 1.5625rem;
-}
-.option1{
+    color: white; }
+
+.itemLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6.25rem;
+  padding-bottom: 12.5rem;
+  gap: 6.25rem; }
+  .itemLink .option1 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     align-items: center;
     border: .0625rem solid white;
     border-radius: .5rem;
     padding: .625rem .625rem;
-    font-family: "Lato", sans-serif;
     font-weight: 300;
-    font-style: normal;
-}
-.option1 h4{
-    font-size: x-large;
-}
+    font-style: normal; }
+    .itemLink .option1 h4 {
+      font-size: x-large; }
 
-/*footer*/
+.usMg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.25rem;
+  padding-left: 12.5rem;
+  padding-bottom: 6.25rem; }
 
-.footerPrincipal{
+.usMgreverse {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 1.25rem;
+  padding-right: 12.5rem;
+  padding-bottom: 6.25rem; }
+
+.couchLisboa {
+  background-image: url(../assets/Imagen/lisboa-couch-desing.jpg);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  height: 9.375rem; }
+  .couchLisboa a {
+    padding: .625rem;
+    color: #26272A;
+    font-size: normal;
+    text-decoration: none;
+    letter-spacing: .375rem;
+    font-size: 2.5rem; }
+
+.couchAmerico {
+  background-image: url(../assets/Imagen/americo-couch-desing.jpg);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  height: 9.375rem; }
+  .couchAmerico a {
+    padding: .625rem;
+    color: #26272A;
+    font-size: normal;
+    text-decoration: none;
+    letter-spacing: .375rem;
+    font-size: 2.5rem; }
+
+.couchAfrica {
+  background-image: url(../assets/Imagen/africa-couch-desing.jpg);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  height: 9.375rem; }
+  .couchAfrica a {
+    padding: .625rem;
+    color: #26272A;
+    font-size: normal;
+    text-decoration: none;
+    letter-spacing: .375rem;
+    font-size: 2.5rem; }
+
+.couchPraga {
+  background-image: url(../assets/Imagen/praga-couch-desing.jpg);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  height: 9.375rem; }
+  .couchPraga a {
+    padding: .625rem;
+    color: #26272A;
+    font-size: normal;
+    text-decoration: none;
+    letter-spacing: .375rem;
+    font-size: 2.5rem; }
+
+.gridDesing {
+  display: grid;
+  grid-template-rows: 18.75rem 18.75rem 18.75rem;
+  gap: .625rem; }
+  .gridDesing .grid1 {
+    width: 100%;
+    background-image: url(../assets/imagen/couch-product-4.jpg);
+    background-position: center; }
+    .gridDesing .grid1 a {
+      text-decoration: none;
+      color: white;
+      font-size: 48px;
+      padding: 30px; }
+  .gridDesing .grid2 {
+    background-image: url(../assets/imagen/furriture-product.jpg);
+    background-position: 50% 60%; }
+    .gridDesing .grid2 a {
+      text-decoration: none;
+      color: white;
+      font-size: 3rem;
+      padding: 1.875rem;
+      text-align: center; }
+  .gridDesing .grid3 {
+    background-image: url(../assets/imagen/additional-features-product.jpg); }
+    .gridDesing .grid3 a {
+      text-decoration: none;
+      color: white;
+      font-size: 3rem;
+      padding: 1.875rem; }
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 1.25rem; }
+  .navBar li a {
+    text-decoration: none;
+    color: white; }
+  .navBar :hover {
+    color: goldenrod; }
+
+@media (max-width: 1024px) {
+  .sectionButton {
+    padding-right: 6.25rem; } }
+
+@media (max-width: 768px) {
+  .headerNavbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    padding-bottom: .3125rem; }
+  .sectionPrincipal2 {
+    display: flex;
+    flex-direction: column; }
+  .aboutUs {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 0; }
+  .sectionButton {
+    display: flex;
+    justify-content: end;
+    padding-top: 1.25rem;
+    padding-right: 1.125rem; }
+  .itemLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0; } }
+
+@media (max-width: 768px) {
+  .usMg {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 1.875rem;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    gap: 10px;
-}
-.footerPrincipal h2{
-    padding-bottom: 1.25rem;
-    font-size: x-large;
-}
-.footerPrincipal div a{
-    font-weight: 100;
-    text-decoration: none;
-    color: black;
-}
-.footerPrincipal div p{
-    font-weight: 50;
-    text-align: center;
-    padding: .625rem .625rem;
-}
-.footerEnd{
-    padding: 1.875rem;
-    font-family: "Lato", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-}
-/*Pag desing**/
-
-
-.gridDesing{
-    display: grid;
-    grid-template-rows: 18.75rem 18.75rem 18.75rem;
-    gap: .625rem;
-}
-.grid1{
-    width: 100%;
-    background-image: url(../assets/Imagen/couch-product-4.jpg);
-    background-position: center;    
-}
-.grid1 a{
-    text-decoration: none;
-    color: white;
-    font-size: 3rem;
-    padding: 1.875rem;  
-}
-.grid2{
-    background-image: url(../assets/Imagen/furriture-product.jpg);
-    background-position: 50% 60%;
-}
-.grid2 a{
-    text-decoration: none;
-    color: white;
-    font-size: 3rem;
-    padding: 1.875rem; 
-    text-align: center;
-}
-.grid3{
-    background-image: url(../assets/Imagen/additional-features-product.jpg)
-}
-.grid3 a{
-    text-decoration: none;
-    color: white;
-    font-size: 3rem;
-    padding: 1.875rem;  
-}
-/**
-.sectionOne{
-    background-image: url(../assets/Imagen/couch-product.jpg);
-    background-position: center;
-    background-repeat: none;
-    background-size: cover;
-    height: 9.375rem;
-    color: black;
-}
-.sectionTwo{
-    background-image: url(../assets/Imagen/furriture-product.jpg);
-    background-position: center;
-    background-repeat: none;
-    background-size: cover;
-    height: 9.375rem;
-    color: white;
-}
-.sectionThree{
-    background-image: url(../assets/Imagen/additional-features-product.jpg);
-    background-position: center;
-    background-repeat: none;
-    background-size: cover;
-    height: 9.375rem;
-    color: black;
-}
-**/
-/* section products**/
-
-.couchLisboa{
-    background-image: url(../assets/Imagen/lisboa-couch-desing.jpg);
-    background-position: center;
-    background-repeat: none;
-    background-size: cover;
-    height: 9.375rem;
-}
-.couchAmerico{
-    background-image: url(../assets/Imagen/americo-couch-desing.jpg);
-    background-position: center;
-    background-repeat: none;
-    background-size: cover;
-    height: 9.375rem;
-}
-.couchAfrica{
-    background-image: url(../assets/Imagen/africa-couch-desing.jpg);
-    background-position: center;
-    background-repeat: none;
-    background-size: cover;
-    height: 9.375rem;
-}
-.couchPraga{
-    background-image: url(../assets/Imagen/praga-couch-desing.jpg);
-    background-position: center;
-    background-repeat: none;
-    background-size: cover;
-    height: 9.375rem;
-}
-
-/**pag us**/
-
-main{
-    height: 56.25rem;
-}
-main h2{
-    padding: 1.875rem 1.875rem;
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: xx-large;
-}
-.usMg{
-    display: flex;
-    padding-left: 12.5rem;
-    padding-bottom: 6.25rem;
-}
-.usMgreverse{
-    display: flex;
-    flex-direction: row-reverse;
-    padding-right: 12.5rem;
-    padding-bottom: 25rem;
-}
-.datesUs{
+    justify-content: center; }
+    .usMg img {
+      width: 25rem; }
+  .usMgreverse {
     display: flex;
     flex-direction: column;
-    padding: 1.25rem
-}
-.datesUs h3{
-    padding: .9375rem;
-    text-decoration: double;
-    font-size: larger;
-}
+    align-items: center;
+    justify-content: center; }
+    .usMgreverse img {
+      width: 25rem; } }
 
-/**contact**/
-
-/**MEDIA QUERIN**/
-
-/**index**/
-
-@media (max-width:1024px){
-    .sectionButton{
-        padding-right: 6.25rem;
-    }
-}
-@media (max-width:768px){
-    .headerNavbar{
+@media (max-width: 425px) {
+  .mainUs {
+    height: 100%; }
+    .mainUs h2 {
+      text-align: center;
+      font-size: 3.125rem; }
+    .mainUs section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center; }
+      .mainUs section .usMg {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1.25rem;
-        padding-bottom: .3125rem;
-    }
-    .sectionPrincipal div{
-    width: 25%;
-    }
-    .sectionPrincipal2{
+        padding: 2.5rem; }
+        .mainUs section .usMg h3 {
+          text-align: center;
+          padding-bottom: .625rem; }
+        .mainUs section .usMg p {
+          text-align: center; }
+      .mainUs section .usMgreverse {
         display: flex;
         flex-direction: column;
-    }
-    .aboutUs{
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        gap: 0;
-    }
-    .sectionButton{
-        display: flex;
-        justify-content: end;
-    }
-    .itemLink{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding-left: 0;
-    }
-}
-@media (max-width:425px){
-    .headerNavbar h1{
-        font-size: 1.25rem;
-    }
-    .navBar li a{
-        font-size: .9375rem;
-    }
-    .sectionPrincipal h2{
-        font-size: 1.25rem;
-        align-items: center;
-        padding: 0;
-    }
-    .sectionPrincipal div{
-        display: flex;
-        flex-direction: column;
-        width: 40%;
-}
-.sectionPrincipal div h3{
-    font-size: 1.25rem;
-}
-.sectionPrincipal div p{
-    font-size: small;
-}
-.sectionPrincipal2{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-}
-.aboutUs{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    padding: 0;
-}
-.sectionButton a{
-    font-size: 1.25rem;
-    padding: .625rem;
-    text-align: center; 
-    margin: .625rem;
-}
-.itemLink{
-    display: flex;
-    flex-direction: column;
-}
-}
+        padding: 2.5rem; }
+        .mainUs section .usMgreverse h3 {
+          text-align: center;
+          padding-bottom: .625rem; }
+        .mainUs section .usMgreverse p {
+          text-align: center; } }
 
-/**us***/
-
-@media (max-width:425px){
-    main{
-        height: 100%;
-    }
-    main section{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        
-    }
-    .usMg{
-        display: flex;
-        flex-direction: column;
-        padding: 2.5rem
-    }
-    .usMgreverse{
-        display: flex;
-        flex-direction: column;
-        padding: 2.5rem ;
-    }
-    .datesUs h3{
-        display: flex;
-        justify-content: center;
-    }
-}
+@media (max-width: 425px) {
+  .couchLisboa {
+    height: 6.25rem;
+    background-position: center; }
+    .couchLisboa a {
+      font-size: 1.25rem; }
+  .couchAmerico {
+    height: 6.25rem;
+    background-position: 100% 30%; }
+    .couchAmerico a {
+      font-size: 1.25rem; }
+  .couchAfrica {
+    height: 6.25rem;
+    background-position: 100% 60%; }
+    .couchAfrica a {
+      font-size: 1.25rem; }
+  .couchPraga {
+    height: 6.25rem;
+    background-position: 10%; }
+    .couchPraga a {
+      font-size: 1.25rem; } }

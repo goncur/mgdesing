@@ -1,0 +1,34 @@
+//footer 
+.footerPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.875rem;
+    font-family: "Lato",sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    gap: .625rem;
+        h2{
+            padding-bottom: 1.25rem;
+            font-size: x-large;
+        }
+        div{
+            color: #26272A;
+            a{
+                font-weight: 300;
+                text-decoration: none;
+                color: #26272A;
+            }
+            p{
+                font-weight: 50;
+                text-align: center;
+                padding: .625rem .625rem;
+            }
+        }
+        }
+        .footerEnd{
+            padding: 1.875rem;
+            font-family: "Lato",sans-serif;
+            font-weight: 100;
+            font-style: normal;
+        }
