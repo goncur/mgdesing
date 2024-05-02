@@ -309,32 +309,32 @@ main {
     background-position: 30% 60%; }
     .gridDesing .grid1 a {
       text-decoration: none;
-      color: white;
+      color: black;
       font-size: 48px;
       padding: 30px; }
     .gridDesing .grid1 :hover {
-      color: black; }
+      color: wheat; }
   .gridDesing .grid2 {
     background-image: url(../assets/imagen/foto-9.jpeg);
     background-position: 14% 50%; }
     .gridDesing .grid2 a {
       text-decoration: none;
-      color: white;
+      color: black;
       font-size: 3rem;
       padding: 1.875rem;
       text-align: center; }
     .gridDesing .grid2 :hover {
-      color: black; }
+      color: wheat; }
   .gridDesing .grid3 {
-    background-image: url(../assets/imagen/foto-7.jpeg);
+    background-image: url(../assets/imagen/americo-couch-desing.jpg);
     background-position: 14% 50%; }
     .gridDesing .grid3 a {
       text-decoration: none;
-      color: white;
+      color: black;
       font-size: 3rem;
       padding: 1.875rem; }
     .gridDesing .grid3 :hover {
-      color: black; }
+      color: wheat; }
 
 .mainContact {
   height: 100vh;

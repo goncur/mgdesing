@@ -8,12 +8,12 @@
         background-position: 30% 60%;
             a{
                 text-decoration: none;
-                color: white;
+                color: black;
                 font-size: 48px;
                 padding: 30px;
             }
                 :hover{
-                    color: black;
+                    color: wheat;
                 }
     }
     .grid2{
@@ -21,26 +21,26 @@
         background-position: 14% 50%;
             a{
                 text-decoration: none;
-                color:white;
+                color: black;
                 font-size: 3rem;
                 padding: 1.875rem;
                 text-align: center;
             }
                 :hover{
-                color: black;
+                color: wheat;
                 }
     }
     .grid3{
-        background-image: url(../assets/imagen/foto-7.jpeg);
+        background-image: url(../assets/imagen/americo-couch-desing.jpg);
         background-position: 14% 50%;
             a{
                 text-decoration: none;
-                color: white;
+                color: black;
                 font-size: 3rem;
                 padding: 1.875rem;
             }
                 :hover{
-                color: black;
+                color: wheat;
                 }
     }
 }
