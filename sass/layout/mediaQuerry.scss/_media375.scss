@@ -1,0 +1,53 @@
+@media(max-width:375px){
+    .home{
+        h1{
+            font-size: .9375rem;
+        }
+    }
+}
+@media(max-width:375px){
+    .usMg{
+        img{
+            width: 15rem;
+        }
+            .datesUs{
+                h3{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 1.25rem;
+                }
+            }
+    }
+    .usMgreverse{
+        img{
+            width: 17rem;
+        }
+            .datesUs{
+                h3{
+                    font-size: 1.875rem;
+                }
+                p{
+                    font-size: 1.23rem;               
+                }
+            }
+    }
+}
+@media(max-width:375px){
+    .couchLisboa{
+        padding: 0;
+        width: 20rem;
+    }
+    .couchAmerico{
+        margin: 0;
+        width: 20rem;
+    }
+    .couchAfrica{
+        margin: 0;
+        width: 20rem;
+    }
+    .couchPraga{
+        margin: 0;
+        width: 20rem;
+    }
+}

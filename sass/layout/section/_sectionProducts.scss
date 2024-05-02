@@ -1,9 +1,18 @@
+.mainProducts{
+    width: 95%;
+    height: 55rem;
+    display: flex;
+    padding-left: 4.625rem;
+    gap: 10px;
+}
+
 .couchLisboa{
+    width: 20rem;
     background-image: url(../assets/Imagen/lisboa-couch-desing.jpg);
     background-position: center;
     background-repeat: none;
     background-size: cover;
-    height: 9.375rem;
+    height: 100vh;
     a{
         padding: .625rem;
         color: #26272A;
@@ -14,11 +23,13 @@
 }  
 }
 .couchAmerico{
+    width: 20rem;
     background-image: url(../assets/Imagen/americo-couch-desing.jpg);
     background-position: center;
     background-repeat: none;
     background-size: cover;
-    height: 9.375rem;
+    height: 100vh;
+    margin-top: 1.25rem;
     a{
         padding: .625rem;
         color: #26272A;
@@ -29,11 +40,13 @@
 } 
 }
 .couchAfrica{
+    width: 20rem;
     background-image: url(../assets/Imagen/africa-couch-desing.jpg);
     background-position: center;
     background-repeat: none;
     background-size: cover;
-    height: 9.375rem;
+    height: 100vh;
+    margin-top: 2.5rem;
     a{
         padding: .625rem;
         color: #26272A;
@@ -44,11 +57,13 @@
 } 
 }
 .couchPraga{
+    width: 20rem;
     background-image: url(../assets/Imagen/praga-couch-desing.jpg);
     background-position: center;
     background-repeat: none;
     background-size: cover;
-    height: 9.375rem;
+    height: 100vh;
+    margin-top: 3.75rem;
     a{
         padding: .625rem;
         color: #26272A;
@@ -58,4 +73,3 @@
         font-size: 2.5rem;
 } 
 }
-

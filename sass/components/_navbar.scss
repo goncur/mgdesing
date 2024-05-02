@@ -1,6 +1,5 @@
 .navBar{
-    display: flex;
-    flex-direction: row;
+    @include flex (row, center, center);
     list-style: none;
     gap: 1.25rem;
     li a{
@@ -9,5 +8,6 @@
 }
     :hover{
     color: goldenrod;
+    font-weight: 300;
 }
 }

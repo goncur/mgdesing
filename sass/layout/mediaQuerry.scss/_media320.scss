@@ -1,0 +1,63 @@
+@media(max-width:320px){
+    .home{
+        a{
+            padding: .625rem;
+        }
+    }
+}
+@media(max-width:320px){
+    .footerPrincipal{
+        div{
+            a{
+                font-size: 30px;
+            }
+        }
+    }
+    .footerEnd{
+        font-size: .625rem;
+    }
+}
+@media(max-width:320px){
+    .mainProducts{
+        padding: 1.5rem;
+    }
+    .couchLisboa{
+        width: 18.5rem;
+    }
+    .couchAmerico{
+        width: 18.5rem;
+    }
+    .couchAfrica{
+        width: 18.5rem;
+    }
+    .couchPraga{
+        width: 18.5rem;
+    }
+}
+@media(max-width:320px){
+    .sectionPrincipal{
+        h2{
+            padding: 0;
+            margin:0;
+            margin-right: 15px;
+            margin-bottom: 90px;
+        }
+        div{
+            gap: 4px;
+            width: 60%;
+            margin-bottom: 22.125rem;
+        }
+    }
+    .sectionPrincipal2{
+        .aboutUs{
+            padding-top: .625rem;
+            margin-top: 0;
+            h2{
+                font-size: xx-large;
+            }
+            p{
+                font-size: large;
+            }
+        }
+    }
+}

@@ -16,12 +16,14 @@
 @import "./layout/section/sectionUs";
 @import "./layout/section/sectionProducts";
 @import "./layout/section/sectionDesing";
+@import "./layout/section/mainContact";
+@import "./layout/section/home";
+@import "./layout/section/africa";
 
 @import "./components/navbar";
 
 @import "./layout/mediaQuerry.scss/media1024";
 @import "./layout/mediaQuerry.scss/media768";
 @import "./layout/mediaQuerry.scss/media425";
-
-
-
+@import "./layout/mediaQuerry.scss/media375";
+@import "./layout/mediaQuerry.scss/media320";

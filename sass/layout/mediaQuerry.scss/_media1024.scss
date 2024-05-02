@@ -2,4 +2,48 @@
     .sectionButton{
         padding-right: 6.25rem;
     }
+    .usMg{
+        @include flex (row, center, center);
+        padding: 0;
+        padding-bottom: 6.25rem;
+    }
+    .usMgreverse{
+        @include flex (row-reverse, center, center);
+        padding: 0;
+        padding-bottom: 6.25rem;
+    }
+    .sectionPrincipal{
+        h2{
+            font-size: 5rem;
+        }
+        div{
+            width: 45%;
+                h3{
+                    font-size: 3.125rem;
+                }
+                p{
+                    font-size: 35px;
+                }
+        }
+    }
+    .aboutUs{
+        width: 100%;
+        gap: 1rem;
+    }
+    .sectionPrincipal2{
+        @include flex (column, center, center);
+        margin-top: 1.875rem;
+        padding: 0;
+    }
+    .sectionButton{
+        @include flex (row, center, center);
+        padding: 0;
+        margin-left: 300px;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:1024px){
+    .mainProducts{
+        padding-left: 4rem;
+    }
 }

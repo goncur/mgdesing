@@ -4,18 +4,21 @@
     gap: .625rem;
     .grid1{
         width: 100%;
-        background-image: url(../assets/imagen/couch-product-4.jpg);
-        background-position: center;
+        background-image: url(/assets/imagen/foto-12.webp);
+        background-position: 30% 60%;
             a{
                 text-decoration: none;
                 color: white;
                 font-size: 48px;
                 padding: 30px;
             }
+                :hover{
+                    color: black;
+                }
     }
     .grid2{
-        background-image: url(../assets/imagen/furriture-product.jpg);
-        background-position: 50% 60%;
+        background-image: url(/assets/imagen/foto-7.jpeg);
+        background-position: 14% 84%;
             a{
                 text-decoration: none;
                 color:white;
@@ -23,6 +26,9 @@
                 padding: 1.875rem;
                 text-align: center;
             }
+                :hover{
+                color: black;
+                }
     }
     .grid3{
         background-image: url(../assets/imagen/additional-features-product.jpg);
@@ -32,6 +38,9 @@
                 font-size: 3rem;
                 padding: 1.875rem;
             }
+                :hover{
+                color: black;
+                }
     }
 }
         

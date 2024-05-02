@@ -1,4 +1,9 @@
 @media (max-width:768px){
+    .home{
+        h1{
+            font-size: 1.875rem;
+        }
+    }
     .headerNavbar{
         display: flex;
         flex-direction: column;
@@ -7,21 +12,38 @@
         gap: 1.25rem;
         padding-bottom: .3125rem;
     }
+    .sectionPrincipal{
+        h2{
+            font-size: 3.7rem;
+        }
+        div{
+            width: 40%;
+                h3{
+                    font-size: 2.5rem;
+                }
+                p{
+                    font-size: 1.875rem;
+                }
+            }
+        }
     .sectionPrincipal2{
-        display: flex;
-        flex-direction: column;
+        height: 37rem;
+        padding-left: 0;
+        .aboutUs{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            padding-top: 1.25rem;
+            padding-bottom: 1.25rem;
+            margin-left: .9375rem;
+            gap: 2rem;
+                h2{
+                    font-size: 3.125rem;
+                }
+                p{
+                    font-size: 1.875rem;
+                }
     }
-    .aboutUs{
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        gap: 0;
-    }
-    .sectionButton{
-        display: flex;
-        justify-content: end;
-        padding-top: 1.25rem;
-        padding-right: 1.125rem;
     }
     .itemLink{
         display: flex;
@@ -30,7 +52,6 @@
         padding-left: 0;
     }
 }
-
 @media(max-width:768px){
     .usMg{
         display: flex;
@@ -51,3 +72,73 @@
             }
     }
 }
+@media(max-width:768px){
+    .mainAfrica{
+        height: 55rem;
+    }
+    .africa{
+        @include flex (column, center, center);
+        padding: 1;
+            p{
+                margin-top: 10px;
+            }
+    }
+}
+@media(max-width:768px){
+    .container{
+        width: 40rem;
+        height: 23rem;
+        form{
+            width: 30rem;
+                h3{
+                    font-size: medium;
+                    padding-top: 30px;
+                }
+                div{
+                    input{
+                    padding: .9375rem;
+                    width: 30rem;
+                    }
+                }
+        }
+    }
+}
+@media(max-width:768px){
+    .gridDesing{
+        display: grid;
+        grid-template-rows: 18.75rem 18.75rem 18.75rem;
+        gap: .625rem;
+    }
+}
+@media(max-width:768px){
+    .mainProducts{
+        width: 100%;
+        height: 40rem;
+        display: flex;
+        flex-direction: row;
+    }
+    .couchLisboa{
+        width: 10rem;
+            a{
+                font-size: 2rem;
+            }
+    }
+    .couchAmerico{
+        width: 10rem;
+            a{
+                font-size: 2rem;
+            }
+    }
+    .couchAfrica{
+        width: 10rem;
+            a{
+                font-size: 2rem;
+            }
+    }
+    .couchPraga{
+        width: 10rem;
+            a{
+                font-size: 2rem;
+            }
+    }
+}   

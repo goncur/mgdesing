@@ -33,26 +33,30 @@
 */
 .headerNavbar {
   width: 100%;
-  height: 9.375rem;
+  height: 12.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: end;
   background-color: #26272A;
   color: white;
   padding: 1.875rem;
   font-family: "Lato",sans-serif;
   font-weight: 100;
   font-style: normal;
+  font-size: 1.25rem;
   position: sticky;
-  top: 0; }
+  top: 0;
+  border-bottom: 0.0625rem solid 0; }
   .headerNavbar h1 {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     font-family: "Lato",sans-serif;
     font-weight: 300;
     font-style: normal; }
+    .headerNavbar h1 :hover {
+      color: goldenrod; }
     .headerNavbar h1 a {
       color: white;
       list-style: none;
@@ -71,31 +75,40 @@ main {
 .footerPrincipal {
   display: flex;
   flex-direction: column;
+  justify-content: start;
   align-items: center;
   padding-top: 1.875rem;
   font-family: "Lato",sans-serif;
   font-weight: 300;
   font-style: normal;
-  gap: .625rem; }
+  gap: .625rem;
+  background-color: #dedada; }
   .footerPrincipal h2 {
     padding-bottom: 1.25rem;
-    font-size: x-large; }
+    font-size: x-large;
+    font-size: xx-large; }
   .footerPrincipal div {
     color: #26272A; }
     .footerPrincipal div a {
       font-weight: 300;
       text-decoration: none;
-      color: #26272A; }
+      color: #26272A;
+      font-size: xx-large; }
+    .footerPrincipal div :hover {
+      color: gray; }
     .footerPrincipal div p {
       font-weight: 50;
       text-align: center;
-      padding: .625rem .625rem; }
+      padding: .625rem .625rem;
+      gap: .125rem;
+      font-size: large; }
 
 .footerEnd {
   padding: 1.875rem;
   font-family: "Lato",sans-serif;
   font-weight: 100;
-  font-style: normal; }
+  font-style: normal;
+  background-color: #dedada; }
 
 .mainUs {
   height: 100%; }
@@ -110,101 +123,126 @@ main {
   font-family: "Lato",sans-serif; }
 
 .sectionPrincipal {
-  background-image: url(../assets/Imagen/couch-product.jpg);
-  background-position: center;
+  margin-left: .75rem;
+  margin-right: .75rem;
+  border-radius: .625rem;
+  background-image: url(/assets/imagen/foto-11.webp);
+  background-position: 30% 80%;
   background-repeat: none;
   background-size: cover;
-  height: 18.75rem;
+  height: 42.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  padding-left: 3.125rem; }
+  justify-content: space-evenly;
+  align-items: end; }
   .sectionPrincipal h2 {
-    font-size: 3.125rem;
+    font-size: 6.25rem;
     color: #26272A;
     letter-spacing: .125rem;
-    font-weight: 300; }
+    font-weight: 300;
+    margin-right: 9.375rem;
+    padding-top: 2.5rem; }
   .sectionPrincipal div {
-    background-color: rgba(0, 0, 0, 0.297);
-    width: 17%;
-    padding: .5rem; }
+    background-color: rgba(0, 0, 0, 0.202);
+    width: 24%;
+    padding: .5rem;
+    margin-right: 3.125rem;
+    border-radius: .625rem; }
     .sectionPrincipal div h3 {
       padding-bottom: .9375rem;
-      font-size: x-large;
+      font-size: xx-large;
       font-weight: 300; }
     .sectionPrincipal div p {
-      font-size: medium;
+      font-size: x-large;
       font-weight: 100;
       color: white; }
 
 .sectionPrincipal2 {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  padding-left: 1.875rem; }
+  height: 26rem;
+  padding-left: 7rem; }
   .sectionPrincipal2 .aboutUs {
-    width: 80%;
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 1.875rem; }
+    align-items: center;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    margin-top: 1.25rem;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 1.25rem; }
     .sectionPrincipal2 .aboutUs h2 {
-      font-size: 1.875rem; }
+      font-size: 3.125rem; }
+    .sectionPrincipal2 .aboutUs p {
+      font-size: xx-large; }
 
 .sectionButton {
-  width: 100%;
-  color: white;
-  text-align: end;
-  padding-right: 6.25rem; }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 13rem;
+  height: 4rem;
+  border-radius: .6875rem;
+  margin-top: 40px;
+  margin-left: 800px;
+  border: .1875rem solid white; }
   .sectionButton a {
     font-size: 1.875rem;
     list-style: none;
     text-decoration: none;
-    color: white; }
-
-.itemLink {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding-top: 6.25rem;
-  padding-bottom: 12.5rem;
-  gap: 6.25rem; }
-  .itemLink .option1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-items: center;
-    border: .0625rem solid white;
-    border-radius: .5rem;
-    padding: .625rem .625rem;
     font-weight: 300;
-    font-style: normal; }
-    .itemLink .option1 h4 {
-      font-size: x-large; }
+    color: white; }
 
 .usMg {
   display: flex;
   flex-direction: row;
+  justify-content: start;
   align-items: center;
   gap: 1.25rem;
   padding-left: 12.5rem;
   padding-bottom: 6.25rem; }
+  .usMg img {
+    width: 500px;
+    border-radius: .625rem; }
+  .usMg .datesUs h3 {
+    font-size: 2.5rem;
+    padding-bottom: 3.125rem; }
+  .usMg .datesUs p {
+    font-size: x-large; }
 
 .usMgreverse {
   display: flex;
   flex-direction: row-reverse;
+  justify-content: end;
   align-items: center;
   gap: 1.25rem;
   padding-right: 12.5rem;
   padding-bottom: 6.25rem; }
+  .usMgreverse img {
+    width: 500px;
+    border-radius: .625rem; }
+  .usMgreverse .datesUs h3 {
+    font-size: 2.5rem;
+    padding-bottom: 3.125rem; }
+  .usMgreverse .datesUs p {
+    font-size: x-large; }
+
+.mainProducts {
+  width: 95%;
+  height: 55rem;
+  display: flex;
+  padding-left: 4.625rem;
+  gap: 10px; }
 
 .couchLisboa {
+  width: 20rem;
   background-image: url(../assets/Imagen/lisboa-couch-desing.jpg);
   background-position: center;
   background-repeat: none;
   background-size: cover;
-  height: 9.375rem; }
+  height: 100vh; }
   .couchLisboa a {
     padding: .625rem;
     color: #26272A;
@@ -214,11 +252,13 @@ main {
     font-size: 2.5rem; }
 
 .couchAmerico {
+  width: 20rem;
   background-image: url(../assets/Imagen/americo-couch-desing.jpg);
   background-position: center;
   background-repeat: none;
   background-size: cover;
-  height: 9.375rem; }
+  height: 100vh;
+  margin-top: 1.25rem; }
   .couchAmerico a {
     padding: .625rem;
     color: #26272A;
@@ -228,11 +268,13 @@ main {
     font-size: 2.5rem; }
 
 .couchAfrica {
+  width: 20rem;
   background-image: url(../assets/Imagen/africa-couch-desing.jpg);
   background-position: center;
   background-repeat: none;
   background-size: cover;
-  height: 9.375rem; }
+  height: 100vh;
+  margin-top: 2.5rem; }
   .couchAfrica a {
     padding: .625rem;
     color: #26272A;
@@ -242,11 +284,13 @@ main {
     font-size: 2.5rem; }
 
 .couchPraga {
+  width: 20rem;
   background-image: url(../assets/Imagen/praga-couch-desing.jpg);
   background-position: center;
   background-repeat: none;
   background-size: cover;
-  height: 9.375rem; }
+  height: 100vh;
+  margin-top: 3.75rem; }
   .couchPraga a {
     padding: .625rem;
     color: #26272A;
@@ -261,22 +305,26 @@ main {
   gap: .625rem; }
   .gridDesing .grid1 {
     width: 100%;
-    background-image: url(../assets/imagen/couch-product-4.jpg);
-    background-position: center; }
+    background-image: url(/assets/imagen/foto-12.webp);
+    background-position: 30% 60%; }
     .gridDesing .grid1 a {
       text-decoration: none;
       color: white;
       font-size: 48px;
       padding: 30px; }
+    .gridDesing .grid1 :hover {
+      color: black; }
   .gridDesing .grid2 {
-    background-image: url(../assets/imagen/furriture-product.jpg);
-    background-position: 50% 60%; }
+    background-image: url(/assets/imagen/foto-7.jpeg);
+    background-position: 14% 84%; }
     .gridDesing .grid2 a {
       text-decoration: none;
       color: white;
       font-size: 3rem;
       padding: 1.875rem;
       text-align: center; }
+    .gridDesing .grid2 :hover {
+      color: black; }
   .gridDesing .grid3 {
     background-image: url(../assets/imagen/additional-features-product.jpg); }
     .gridDesing .grid3 a {
@@ -284,23 +332,169 @@ main {
       color: white;
       font-size: 3rem;
       padding: 1.875rem; }
+    .gridDesing .grid3 :hover {
+      color: black; }
+
+.mainContact {
+  height: 100vh;
+  padding-top: 20px; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50rem;
+  height: 25rem;
+  background-color: 26272A;
+  margin: 0px auto;
+  padding: 1.25rem;
+  border-radius: .3125rem;
+  box-shadow: 0px 0px 2px white; }
+  .container h3 {
+    text-align: start;
+    padding: .625rem;
+    font-size: x-large; }
+  .container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: .5rem; }
+    .container div input {
+      padding: 20px;
+      margin-top: .1875rem;
+      border: none;
+      border-radius: .3125rem;
+      width: 40rem;
+      font-family: "Lato", sans-serif;
+      font-size: .9375rem; }
+  .container button {
+    padding: .625rem;
+    border: none;
+    width: 100%;
+    border: .0300rem solid white;
+    border-radius: .3125rem;
+    color: white;
+    background-color: rgba(66, 60, 60, 0.985);
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+    font-size: large;
+    cursor: pointer; }
+
+.home {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  width: 100%;
+  height: 100vh;
+  background-color: #26272A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem; }
+  .home h1 {
+    color: white;
+    font-size: 2.5rem;
+    padding-bottom: 1.875rem; }
+  .home a {
+    text-decoration: none;
+    color: grey;
+    padding: 1.875rem; }
+  .home :hover {
+    color: bisque; }
+
+.mainAfrica {
+  height: 70rem; }
+  .mainAfrica h2 {
+    text-align: center;
+    padding-top: 1.875rem;
+    font-size: 2.875rem; }
+
+.africa {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  gap: 1.25rem; }
+  .africa img {
+    width: 700px;
+    height: 400px;
+    border-radius: .625rem; }
+  .africa p {
+    margin-top: 17.125rem;
+    background-color: rgba(255, 255, 255, 0.153);
+    padding: .625rem;
+    border-radius: .625rem;
+    font-size: 1.25rem; }
 
 .navBar {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   gap: 1.25rem; }
   .navBar li a {
     text-decoration: none;
     color: white; }
   .navBar :hover {
-    color: goldenrod; }
+    color: goldenrod;
+    font-weight: 300; }
 
 @media (max-width: 1024px) {
   .sectionButton {
-    padding-right: 6.25rem; } }
+    padding-right: 6.25rem; }
+  .usMg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-bottom: 6.25rem; }
+  .usMgreverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-bottom: 6.25rem; }
+  .sectionPrincipal h2 {
+    font-size: 5rem; }
+  .sectionPrincipal div {
+    width: 45%; }
+    .sectionPrincipal div h3 {
+      font-size: 3.125rem; }
+    .sectionPrincipal div p {
+      font-size: 35px; }
+  .aboutUs {
+    width: 100%;
+    gap: 1rem; }
+  .sectionPrincipal2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.875rem;
+    padding: 0; }
+  .sectionButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-left: 300px;
+    margin-bottom: 30px; } }
+
+@media (max-width: 1024px) {
+  .mainProducts {
+    padding-left: 4rem; } }
 
 @media (max-width: 768px) {
+  .home h1 {
+    font-size: 1.875rem; }
   .headerNavbar {
     display: flex;
     flex-direction: column;
@@ -308,19 +502,29 @@ main {
     align-items: center;
     gap: 1.25rem;
     padding-bottom: .3125rem; }
+  .sectionPrincipal h2 {
+    font-size: 3.7rem; }
+  .sectionPrincipal div {
+    width: 40%; }
+    .sectionPrincipal div h3 {
+      font-size: 2.5rem; }
+    .sectionPrincipal div p {
+      font-size: 1.875rem; }
   .sectionPrincipal2 {
-    display: flex;
-    flex-direction: column; }
-  .aboutUs {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    gap: 0; }
-  .sectionButton {
-    display: flex;
-    justify-content: end;
-    padding-top: 1.25rem;
-    padding-right: 1.125rem; }
+    height: 37rem;
+    padding-left: 0; }
+    .sectionPrincipal2 .aboutUs {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      margin-left: .9375rem;
+      gap: 2rem; }
+      .sectionPrincipal2 .aboutUs h2 {
+        font-size: 3.125rem; }
+      .sectionPrincipal2 .aboutUs p {
+        font-size: 1.875rem; }
   .itemLink {
     display: flex;
     flex-direction: row;
@@ -342,6 +546,67 @@ main {
     justify-content: center; }
     .usMgreverse img {
       width: 25rem; } }
+
+@media (max-width: 768px) {
+  .mainAfrica {
+    height: 55rem; }
+  .africa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1; }
+    .africa p {
+      margin-top: 10px; } }
+
+@media (max-width: 768px) {
+  .container {
+    width: 40rem;
+    height: 23rem; }
+    .container form {
+      width: 30rem; }
+      .container form h3 {
+        font-size: medium;
+        padding-top: 30px; }
+      .container form div input {
+        padding: .9375rem;
+        width: 30rem; } }
+
+@media (max-width: 768px) {
+  .gridDesing {
+    display: grid;
+    grid-template-rows: 18.75rem 18.75rem 18.75rem;
+    gap: .625rem; } }
+
+@media (max-width: 768px) {
+  .mainProducts {
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    flex-direction: row; }
+  .couchLisboa {
+    width: 10rem; }
+    .couchLisboa a {
+      font-size: 2rem; }
+  .couchAmerico {
+    width: 10rem; }
+    .couchAmerico a {
+      font-size: 2rem; }
+  .couchAfrica {
+    width: 10rem; }
+    .couchAfrica a {
+      font-size: 2rem; }
+  .couchPraga {
+    width: 10rem; }
+    .couchPraga a {
+      font-size: 2rem; } }
+
+@media (max-width: 425px) {
+  .home h1 {
+    font-size: 1.25rem; }
+  .home a {
+    font-size: .625rem;
+    padding: .9375rem; } }
 
 @media (max-width: 425px) {
   .mainUs {
@@ -374,23 +639,142 @@ main {
           text-align: center; } }
 
 @media (max-width: 425px) {
+  .container {
+    width: 20rem;
+    height: 23rem; }
+    .container form {
+      width: 15rem; }
+      .container form h3 {
+        font-size: medium;
+        padding-top: 30px; }
+      .container form div input {
+        padding: .9375rem;
+        width: 15rem; } }
+
+@media (max-width: 425px) {
+  .mainProducts {
+    width: 100%;
+    height: 29rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem; }
   .couchLisboa {
+    width: 23rem;
+    margin-top: 0;
     height: 6.25rem;
     background-position: center; }
     .couchLisboa a {
       font-size: 1.25rem; }
   .couchAmerico {
+    width: 23rem;
+    margin-top: 0;
     height: 6.25rem;
     background-position: 100% 30%; }
     .couchAmerico a {
       font-size: 1.25rem; }
   .couchAfrica {
+    width: 23rem;
+    margin-top: 0;
     height: 6.25rem;
     background-position: 100% 60%; }
     .couchAfrica a {
       font-size: 1.25rem; }
   .couchPraga {
+    width: 23rem;
+    margin-top: 0;
     height: 6.25rem;
     background-position: 10%; }
     .couchPraga a {
       font-size: 1.25rem; } }
+
+@media (max-width: 425px) {
+  .sectionPrincipal h2 {
+    font-size: 26px; }
+  .sectionPrincipal div {
+    width: 29%;
+    margin-right: 10px; }
+    .sectionPrincipal div h3 {
+      font-size: medium; }
+    .sectionPrincipal div p {
+      font-size: small; }
+  .sectionPrincipal2 {
+    height: 45rem; }
+    .sectionPrincipal2 .aboutUs {
+      display: flex;
+      flex-direction: column;
+      text-align: center; }
+  .sectionButton {
+    margin-left: 0;
+    flex-direction: row; } }
+
+@media (max-width: 375px) {
+  .home h1 {
+    font-size: .9375rem; } }
+
+@media (max-width: 375px) {
+  .usMg img {
+    width: 15rem; }
+  .usMg .datesUs h3 {
+    font-size: 30px; }
+  .usMg .datesUs p {
+    font-size: 1.25rem; }
+  .usMgreverse img {
+    width: 17rem; }
+  .usMgreverse .datesUs h3 {
+    font-size: 1.875rem; }
+  .usMgreverse .datesUs p {
+    font-size: 1.23rem; } }
+
+@media (max-width: 375px) {
+  .couchLisboa {
+    padding: 0;
+    width: 20rem; }
+  .couchAmerico {
+    margin: 0;
+    width: 20rem; }
+  .couchAfrica {
+    margin: 0;
+    width: 20rem; }
+  .couchPraga {
+    margin: 0;
+    width: 20rem; } }
+
+@media (max-width: 320px) {
+  .home a {
+    padding: .625rem; } }
+
+@media (max-width: 320px) {
+  .footerPrincipal div a {
+    font-size: 30px; }
+  .footerEnd {
+    font-size: .625rem; } }
+
+@media (max-width: 320px) {
+  .mainProducts {
+    padding: 1.5rem; }
+  .couchLisboa {
+    width: 18.5rem; }
+  .couchAmerico {
+    width: 18.5rem; }
+  .couchAfrica {
+    width: 18.5rem; }
+  .couchPraga {
+    width: 18.5rem; } }
+
+@media (max-width: 320px) {
+  .sectionPrincipal h2 {
+    padding: 0;
+    margin: 0;
+    margin-right: 15px;
+    margin-bottom: 90px; }
+  .sectionPrincipal div {
+    gap: 4px;
+    width: 60%;
+    margin-bottom: 22.125rem; }
+  .sectionPrincipal2 .aboutUs {
+    padding-top: .625rem;
+    margin-top: 0; }
+    .sectionPrincipal2 .aboutUs h2 {
+      font-size: xx-large; }
+    .sectionPrincipal2 .aboutUs p {
+      font-size: large; } }
