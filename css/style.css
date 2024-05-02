@@ -126,7 +126,7 @@ main {
   margin-left: .75rem;
   margin-right: .75rem;
   border-radius: .625rem;
-  background-image: url(/assets/imagen/foto-11.webp);
+  background-image: url(../assets/imagen/foto-11.jpg);
   background-position: 30% 80%;
   background-repeat: none;
   background-size: cover;
@@ -305,7 +305,7 @@ main {
   gap: .625rem; }
   .gridDesing .grid1 {
     width: 100%;
-    background-image: url(/assets/imagen/foto-12.webp);
+    background-image: url(../assets/imagen/foto-12.jpg);
     background-position: 30% 60%; }
     .gridDesing .grid1 a {
       text-decoration: none;
@@ -315,8 +315,8 @@ main {
     .gridDesing .grid1 :hover {
       color: black; }
   .gridDesing .grid2 {
-    background-image: url(/assets/imagen/foto-7.jpeg);
-    background-position: 14% 84%; }
+    background-image: url(../assets/imagen/foto-9.jpeg);
+    background-position: 14% 50%; }
     .gridDesing .grid2 a {
       text-decoration: none;
       color: white;
